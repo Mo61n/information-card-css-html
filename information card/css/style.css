@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(34, 34, 34), rgb(211, 206, 206));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background: rgb(159, 167, 159);
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    width: 900px;
+    border-radius: 40px;
+    position: relative;
+
+}
+.profile-img{
+    width: 150px;
+    border-radius: 50%;
+    border: 18px solid rgb(159, 167, 159);
+}
+.info{
+    margin: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+.info h1{
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.info ul{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 30px;
+}
+.info ul li{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.info ul li img{
+    width: 20px;
+    margin-right: 5px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    
+}
+.links a:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
+@media (min-width: 768px) {
+    .links a {
+      padding: 0 2.6rem;
+    }
+  }
+.links a{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    height: 50px;
+    background: #8749fd;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #8749fd;
+    padding: 10px 30px;
+    margin-right: 20px;
+    font-size: 12px;
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.links a img{
+    width: 25px;
+    margin-right: 10px;
+}
+.links .msg-btn{
+    background: #fff;
+    color: #8749fd;
+}
+.share-icon{
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    background: rgb(159, 167, 159);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
